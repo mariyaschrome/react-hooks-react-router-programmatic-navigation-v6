@@ -17,6 +17,7 @@ function NavBar() {
       >
         About
       </NavLink>
+      <button onClick={logout}>Logout</button>
     </nav>
   );
 }
